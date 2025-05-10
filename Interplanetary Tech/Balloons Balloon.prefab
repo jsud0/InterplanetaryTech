@@ -324,7 +324,7 @@ Transform:
   m_GameObject: {fileID: 7899835187691394655}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0.25, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 0}
+  m_LocalScale: {x: 0.020701796, y: 0, z: 0}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 7901593432839337863}
@@ -599,7 +599,7 @@ GameObject:
   - component: {fileID: 63258877661927877}
   - component: {fileID: 4612998090265884885}
   - component: {fileID: 6913892360891867673}
-  - component: {fileID: 124950359877856529}
+  - component: {fileID: 8115062151870080808}
   - component: {fileID: 7800136573893237119}
   - component: {fileID: 3474042488281264892}
   m_Layer: 8
@@ -665,15 +665,13 @@ MonoBehaviour:
       tags:
       - tag: {fileID: 11400000, guid: 38526b409b9f8934e822b9e42d6f655c, type: 2}
         priority: 6
-      - tag: {fileID: 11400000, guid: 26d0e3030cb1a9140b03d8b8c16e7a5e, type: 2}
-        priority: 2
       cost: 0
     tags: []
   onPartUsed:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 124950359877856529}
-        m_TargetAssemblyTypeName: InterplanetaryModule.BalloonModule, InterplanetaryModule
+      - m_Target: {fileID: 8115062151870080808}
+        m_TargetAssemblyTypeName: BalloonModule.BalloonModule, BalloonModule
         m_MethodName: DeployBalloon
         m_Mode: 0
         m_Arguments:
@@ -732,7 +730,7 @@ MonoBehaviour:
     saves: []
   stringVariables:
     saves: []
---- !u!114 &124950359877856529
+--- !u!114 &8115062151870080808
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -741,7 +739,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 7900122061030893713}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: -1603810936, guid: ace7a7568c5d3d340abd4ce94008eb8b, type: 3}
+  m_Script: {fileID: 2010411762, guid: bcf7d475f29f6db4ab2c5ab1c381600c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   radius:
@@ -757,7 +755,7 @@ MonoBehaviour:
   state:
     variableName: animation_state
     referenceToVariables: {fileID: 6913892360891867673}
-    localValue: 0
+    localValue: 3
   targetState:
     variableName: deploy_state
     referenceToVariables: {fileID: 6913892360891867673}
@@ -765,7 +763,7 @@ MonoBehaviour:
   maxSpeed:
     variableName: max_speed
     referenceToVariables: {fileID: 6913892360891867673}
-    localValue: 0
+    localValue: 10
   onDeploy:
     m_PersistentCalls:
       m_Calls: []
@@ -1156,7 +1154,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &7905608137285086131
 Transform:
   m_ObjectHideFlags: 0

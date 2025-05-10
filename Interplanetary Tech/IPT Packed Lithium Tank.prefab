@@ -3735,7 +3735,7 @@ MonoBehaviour:
   dryMassPercent:
     variableName: 
     referenceToVariables: {fileID: 1836573956553653206}
-    localValue: 0.1
+    localValue: 0.045
   resourcePercent:
     variableName: fuel_percent
     referenceToVariables: {fileID: 1836573956553653206}
