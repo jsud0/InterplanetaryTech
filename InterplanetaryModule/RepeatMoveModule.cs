@@ -35,6 +35,7 @@ namespace InterplanetaryModule
                     time = 0;
                 moveModule.enabled = true;
                 moveModule.time.Value = time;
+                moveModule.targetTime.Value = time;
             }
             else
             {
