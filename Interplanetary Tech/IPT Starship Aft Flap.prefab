@@ -36,6 +36,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1548714214916627419}
+  serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: -19, y: -12, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
@@ -44,7 +45,6 @@ Transform:
   - {fileID: 8749041510678894050}
   - {fileID: 1214632971029995255}
   m_Father: {fileID: 0}
-  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &7523540912212344383
 MonoBehaviour:
@@ -133,56 +133,56 @@ MonoBehaviour:
   composedShape:
     variables: {fileID: 2251233943999007287}
     points:
-    - variables: {fileID: 0}
+    - variables: {fileID: 2251233943999007287}
       position:
-        variables: {fileID: 0}
+        variables: {fileID: 2251233943999007287}
         x:
-          variables: {fileID: 0}
+          variables: {fileID: 2251233943999007287}
           input: 0
         y:
-          variables: {fileID: 0}
+          variables: {fileID: 2251233943999007287}
           input: 0
       width:
-        variables: {fileID: 0}
+        variables: {fileID: 2251233943999007287}
         x:
-          variables: {fileID: 0}
+          variables: {fileID: 2251233943999007287}
           input: 0.8
         y:
-          variables: {fileID: 0}
+          variables: {fileID: 2251233943999007287}
           input: 0
-    - variables: {fileID: 0}
+    - variables: {fileID: 2251233943999007287}
       position:
-        variables: {fileID: 0}
+        variables: {fileID: 2251233943999007287}
         x:
-          variables: {fileID: 0}
+          variables: {fileID: 2251233943999007287}
           input: 0
         y:
-          variables: {fileID: 0}
+          variables: {fileID: 2251233943999007287}
           input: 13.5
       width:
-        variables: {fileID: 0}
+        variables: {fileID: 2251233943999007287}
         x:
-          variables: {fileID: 0}
+          variables: {fileID: 2251233943999007287}
           input: 0.8
         y:
-          variables: {fileID: 0}
+          variables: {fileID: 2251233943999007287}
           input: 0
-    - variables: {fileID: 0}
+    - variables: {fileID: 2251233943999007287}
       position:
-        variables: {fileID: 0}
+        variables: {fileID: 2251233943999007287}
         x:
-          variables: {fileID: 0}
+          variables: {fileID: 2251233943999007287}
           input: 0
         y:
-          variables: {fileID: 0}
+          variables: {fileID: 2251233943999007287}
           input: 14
       width:
-        variables: {fileID: 0}
+        variables: {fileID: 2251233943999007287}
         x:
-          variables: {fileID: 0}
+          variables: {fileID: 2251233943999007287}
           input: 0.4
         y:
-          variables: {fileID: 0}
+          variables: {fileID: 2251233943999007287}
           input: 0
   edit: 1
   view: 1
@@ -255,6 +255,9 @@ MeshRenderer:
   m_ReflectionProbeUsage: 1
   m_RayTracingMode: 2
   m_RayTraceProcedural: 0
+  m_RayTracingAccelStructBuildFlagsOverride: 0
+  m_RayTracingAccelStructBuildFlags: 1
+  m_SmallMeshCulling: 1
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -344,7 +347,10 @@ MonoBehaviour:
       save: 1
       data: 0001000000ffffffff010000000000000004010000000e53797374656d2e426f6f6c65616e01000000076d5f76616c75650001000b
   stringVariables:
-    saves: []
+    saves:
+    - name: color_tex
+      save: 1
+      data: 0001000000ffffffff010000000000000006010000000b436f6c6f725f426c61636b0b
 --- !u!114 &9219344551268691100
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -470,6 +476,7 @@ MonoBehaviour:
       atime6: 0
       atime7: 0
       m_Mode: 0
+      m_ColorSpace: -1
       m_NumColorKeys: 2
       m_NumAlphaKeys: 2
     audioSource: {fileID: 0}
@@ -507,7 +514,7 @@ GameObject:
   m_Component:
   - component: {fileID: 8749041510678894050}
   - component: {fileID: 6862500321981246828}
-  - component: {fileID: 634402505364408040}
+  - component: {fileID: 7789183570303666289}
   m_Layer: 12
   m_Name: Flap Holder
   m_TagString: Untagged
@@ -522,6 +529,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 3666366390664035936}
+  serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0.125, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
@@ -529,7 +537,6 @@ Transform:
   m_Children:
   - {fileID: 139821324477758779}
   m_Father: {fileID: 8652965758250925426}
-  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &6862500321981246828
 MonoBehaviour:
@@ -642,6 +649,7 @@ MonoBehaviour:
       atime6: 0
       atime7: 0
       m_Mode: 0
+      m_ColorSpace: -1
       m_NumColorKeys: 2
       m_NumAlphaKeys: 2
     audioSource: {fileID: 0}
@@ -653,7 +661,7 @@ MonoBehaviour:
       variableName: 
       referenceToVariables: {fileID: 0}
       localValue: 0
---- !u!114 &634402505364408040
+--- !u!114 &7789183570303666289
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -662,7 +670,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 3666366390664035936}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: -1254996635, guid: ace7a7568c5d3d340abd4ce94008eb8b, type: 3}
+  m_Script: {fileID: 11500000, guid: 864f64d7fdd9109488f473ec26358b48, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   moveModule: {fileID: 6862500321981246828}
@@ -705,13 +713,13 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 3927527425017058492}
+  serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: -0.125, y: 0, z: 0}
   m_LocalScale: {x: 0.7441001, y: 1, z: 0}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 8749041510678894050}
-  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &4829844197491435699
 MonoBehaviour:
@@ -751,56 +759,56 @@ MonoBehaviour:
   composedShape:
     variables: {fileID: 2251233943999007287}
     points:
-    - variables: {fileID: 0}
+    - variables: {fileID: 2251233943999007287}
       position:
-        variables: {fileID: 0}
+        variables: {fileID: 2251233943999007287}
         x:
-          variables: {fileID: 0}
+          variables: {fileID: 2251233943999007287}
           input: -0.8
         y:
-          variables: {fileID: 0}
+          variables: {fileID: 2251233943999007287}
           input: 0.2
       width:
-        variables: {fileID: 0}
+        variables: {fileID: 2251233943999007287}
         x:
-          variables: {fileID: 0}
+          variables: {fileID: 2251233943999007287}
           input: 1.8
         y:
-          variables: {fileID: 0}
+          variables: {fileID: 2251233943999007287}
           input: -0.1
-    - variables: {fileID: 0}
+    - variables: {fileID: 2251233943999007287}
       position:
-        variables: {fileID: 0}
+        variables: {fileID: 2251233943999007287}
         x:
-          variables: {fileID: 0}
+          variables: {fileID: 2251233943999007287}
           input: -0.8
         y:
-          variables: {fileID: 0}
+          variables: {fileID: 2251233943999007287}
           input: 8
       width:
-        variables: {fileID: 0}
+        variables: {fileID: 2251233943999007287}
         x:
-          variables: {fileID: 0}
+          variables: {fileID: 2251233943999007287}
           input: 1.799998
         y:
-          variables: {fileID: 0}
+          variables: {fileID: 2251233943999007287}
           input: 0
-    - variables: {fileID: 0}
+    - variables: {fileID: 2251233943999007287}
       position:
-        variables: {fileID: 0}
+        variables: {fileID: 2251233943999007287}
         x:
-          variables: {fileID: 0}
+          variables: {fileID: 2251233943999007287}
           input: -0.8
         y:
-          variables: {fileID: 0}
+          variables: {fileID: 2251233943999007287}
           input: 13
       width:
-        variables: {fileID: 0}
+        variables: {fileID: 2251233943999007287}
         x:
-          variables: {fileID: 0}
+          variables: {fileID: 2251233943999007287}
           input: 1.8
         y:
-          variables: {fileID: 0}
+          variables: {fileID: 2251233943999007287}
           input: 0
   edit: 1
   view: 1
@@ -858,6 +866,9 @@ MeshRenderer:
   m_ReflectionProbeUsage: 1
   m_RayTracingMode: 2
   m_RayTraceProcedural: 0
+  m_RayTracingAccelStructBuildFlagsOverride: 0
+  m_RayTracingAccelStructBuildFlags: 1
+  m_SmallMeshCulling: 1
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -931,13 +942,13 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 3928776588957548655}
+  serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 2.5, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 8652965758250925426}
-  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &1503320405930309263
 MonoBehaviour:
@@ -1041,6 +1052,9 @@ MeshRenderer:
   m_ReflectionProbeUsage: 1
   m_RayTracingMode: 2
   m_RayTraceProcedural: 0
+  m_RayTracingAccelStructBuildFlagsOverride: 0
+  m_RayTracingAccelStructBuildFlags: 1
+  m_SmallMeshCulling: 1
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:

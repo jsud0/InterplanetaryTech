@@ -1344,14 +1344,7 @@ MonoBehaviour:
       input: -0.5
   orientation: {fileID: 6111798124067206776}
   variablesModule: {fileID: 5139312614253800890}
-  variants:
-  - variants:
-    - changes: []
-      tags:
-      - tag: {fileID: 11400000, guid: 3984d3eb5dba09b41b7e92fdac1bc998, type: 2}
-        priority: 0
-      cost: 50
-    tags: []
+  variants: []
   onPartUsed:
     m_PersistentCalls:
       m_Calls:
