@@ -1805,8 +1805,8 @@ MonoBehaviour:
     TranslatableName: Inflatable Habitat
     plainText: 1
   description:
-    TranslatableName: Fuel_Tank_Description
-    plainText: 0
+    TranslatableName: A crewed, compact habitat capable of inflating and deflating
+    plainText: 1
   mass:
     variables: {fileID: 8639874708467865086}
     input: width * height / 15

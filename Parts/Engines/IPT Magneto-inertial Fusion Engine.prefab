@@ -5160,7 +5160,8 @@ MonoBehaviour:
     TranslatableName: Magneto-inertial Fusion Engine
     plainText: 1
   description:
-    TranslatableName: Magneto-inertial Fusion Engine
+    TranslatableName: A fusion engine based on magneto-inertial fusion process. Uses
+      lithium and deuterium
     plainText: 1
   mass:
     variables: {fileID: 4378451280507158393}

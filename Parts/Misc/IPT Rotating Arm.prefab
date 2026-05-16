@@ -3362,7 +3362,7 @@ GameObject:
   - component: {fileID: 7734647085510947528}
   - component: {fileID: 2750651112004919669}
   m_Layer: 8
-  m_Name: IPT Gravity Ring
+  m_Name: IPT Rotating Arm
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -3399,11 +3399,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   displayName:
-    TranslatableName: Gravity Ring
+    TranslatableName: Rotating Arm
     plainText: 1
   description:
-    TranslatableName: Structural_Part_Description
-    plainText: 0
+    TranslatableName: A centrifuge arm, capable of creating an environment of artificial
+      gravity within the compartments
+    plainText: 1
   mass:
     variables: {fileID: 5693710388110365701}
     input: 40

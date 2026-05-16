@@ -280,8 +280,9 @@ MonoBehaviour:
     TranslatableName: D-He3 Fusion Engine
     plainText: 1
   description:
-    TranslatableName: Ion_Engine_Description
-    plainText: 0
+    TranslatableName: Extremely large fusion-powered torch drive with high thrust
+      and efficiency. Uses deuterium, helium-3 and liquid hydrogen
+    plainText: 1
   mass:
     variables: {fileID: 2562367955924905721}
     input: 300

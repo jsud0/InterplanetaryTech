@@ -5070,8 +5070,8 @@ MonoBehaviour:
     TranslatableName: Raptor Engine
     plainText: 1
   description:
-    TranslatableName: Hawk_Engine_Description
-    plainText: 0
+    TranslatableName: SpaceX's Raptor engine
+    plainText: 1
   mass:
     variables: {fileID: 897219473501808448}
     input: mass

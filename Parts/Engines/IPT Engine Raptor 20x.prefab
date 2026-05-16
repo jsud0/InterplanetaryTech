@@ -73,8 +73,9 @@ MonoBehaviour:
     TranslatableName: Raptor Engine 20x
     plainText: 1
   description:
-    TranslatableName: Hawk_Engine_Description
-    plainText: 0
+    TranslatableName: 20 SpaceX's Raptor engine. Used in the Starship's Super Heavy
+      booster
+    plainText: 1
   mass:
     variables: {fileID: 5632044404851753061}
     input: mass

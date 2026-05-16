@@ -13,8 +13,9 @@ MonoBehaviour:
   m_Name: InterplanetaryTech
   m_EditorClassIdentifier: 
   DisplayName: Interplanetary Tech
-  Version: 0.303
-  Description: Interplanetary Tech
+  Version: 0.311
+  Description: A part pack with advanced engines and modules inspired by real life
+    vehicles and missions
   Author: jsudo
   ShowIcon: 0
   Icon: {fileID: 0}
